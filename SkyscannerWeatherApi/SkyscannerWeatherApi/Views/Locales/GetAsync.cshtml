@@ -1,0 +1,27 @@
+﻿@using Newtonsoft.Json.Linq;
+@model SkyscannerWeatherApi.Models.Locales.GetVM
+@{
+    var places = ViewData["Places"] as List<JToken>;
+}
+
+<h2>Places</h2>
+<div class="row">
+				@*<div class="col-1"><!--Username:-->
+					
+					<!--@Html.LabelFor(m => m.AssigneeId)--> 
+				</div>
+				<div class="col-2">
+					<select name="AssigneeId">
+						@foreach(JToken item in Model.Locales)
+						{
+							<option value="@item." @(user.Id == loggedUser.Id ? "selected" : "")>
+									@user.Username (@user.FirstName @user.LastName)
+							</option>
+						}
+					</select>
+				</div>
+				<div class="col-2">
+					
+					@Html.ValidationMessageFor(m => m.AssigneeId)
+				</div>*@
+</div>

@@ -1,0 +1,98 @@
+﻿@model SkyscannerWeatherApi.Models.Flights.SearchVM
+@{
+    ViewData["Title"] = "Search Page";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flight Search</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f2f2f2;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        select,
+        input[type="number"],
+        input[type="date"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        .form-container {
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flight Search</h1>
+    <form method="post" href="/Flights/Search">
+        <label for="departure">Departure:</label>
+        @Html.DropDownListFor(m => m.SelectedDepartureCode, new SelectList(Model.Flights, "IataCode", "Name"), "Select departure", new { @id = "departure" })
+
+
+        <label for="destination">Destination:</label>
+        @Html.DropDownListFor(m => m.SelectedDestinationCode, new SelectList(Model.Flights, "IataCode", "Name"), "Select destination", new { @id = "destination" })
+
+        <label for="adults">Adults:</label>
+        <input type="number" id="adults" name="Adults" min="1" required>
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="DepartureDate" required>
+
+        <div>
+            <label for="Cabin">Cabin Class:</label>
+            <select id="cabinClass" name="Cabin">
+              @foreach (var cabinClass in Enum.GetValues(typeof(SkyscannerWeatherApi.Enums.CabinEnum.CabinClass)))
+              {
+                  <option value="@cabinClass">@cabinClass</option>
+              }
+            </select>
+        </div>
+
+        <input type="submit" value="Search">
+    </form>
+    
+   
+</body>
+</html>

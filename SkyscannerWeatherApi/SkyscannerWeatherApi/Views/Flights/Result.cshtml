@@ -1,0 +1,125 @@
+﻿@model SkyscannerWeatherApi.Models.Flights.ResultVM
+@{
+    ViewData["Title"] = "Result Page";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flight Search Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        .flight-card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+            .flight-card .header {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 10px;
+            }
+
+                .flight-card .header h2 {
+                    font-size: 18px;
+                    color: #333;
+                    margin: 0;
+                }
+
+                .flight-card .header .price {
+                    font-size: 18px;
+                    font-weight: bold;
+                    color: #007bff;
+                }
+
+            .flight-card .details {
+                display: flex;
+                align-items: center;
+                margin-bottom: 10px;
+            }
+
+                .flight-card .details .icon {
+                    margin-right: 10px;
+                }
+
+                .flight-card .details .label {
+                    font-size: 14px;
+                    color: #777;
+                }
+
+                .flight-card .details .value {
+                    font-size: 14px;
+                    color: #333;
+                    font-weight: bold;
+                }
+
+            .flight-card .link {
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+            }
+
+                .flight-card .link a {
+                    text-decoration: none;
+                    color: #007bff;
+                    font-weight: bold;
+                    transition: color 0.3s ease;
+                }
+
+                    .flight-card .link a:hover {
+                        color: #0056b3;
+                    }
+    </style>
+</head>
+<body>
+    <h1>Flight Search Results</h1>
+
+    @foreach (var flight in Model.resultFlightVMs)
+    {
+        <div class="flight-card">
+            <div class="header">
+                <h2>@flight.OriginPlaceId - @flight.DestinationPlaceId</h2>
+                <div class="price">$@flight.Price</div>
+            </div>
+            <div class="details">
+                <div class="icon">
+                    
+                </div>
+                <div class="label">Departure:</div>
+                <div class="value">@flight.DepartureDate.ToString("yyyy-MM-dd HH:mm")</div>
+            </div>
+            <div class="details">
+                <div class="icon">
+                    
+                </div>
+                <div class="label">Arrival:</div>
+                <div class="value">@flight.ArrivalDate.ToString("yyyy-MM-dd HH:mm")</div>
+            </div>
+            <div class="details">
+                <div class="icon">
+                   
+                </div>
+                <div class="label">Duration:</div>
+                <div class="value">@flight.DurationInMinutes minutes</div>
+            </div>
+            <div class="link">
+                <a href="@flight.DeepLink" target="_blank">Book Now</a>
+            </div>
+        </div>
+    }
+</body>
+</html>
