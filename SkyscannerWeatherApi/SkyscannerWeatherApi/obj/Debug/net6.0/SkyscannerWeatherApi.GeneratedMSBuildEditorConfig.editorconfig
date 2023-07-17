@@ -9,53 +9,53 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SkyscannerWeatherApi
 build_property.RootNamespace = SkyscannerWeatherApi
-build_property.ProjectDir = C:\Users\User\OneDrive\Desktop\pregovor\distributedSystems\SkyscannerWeatherApi\SkyscannerWeatherApi\
+build_property.ProjectDir = C:\Users\User\OneDrive\Desktop\pregovor\distributedSystems\SkyScannerApi\SkyscannerWeatherApi\SkyscannerWeatherApi\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\User\OneDrive\Desktop\pregovor\distributedSystems\SkyscannerWeatherApi\SkyscannerWeatherApi
+build_property.MSBuildProjectDirectory = C:\Users\User\OneDrive\Desktop\pregovor\distributedSystems\SkyScannerApi\SkyscannerWeatherApi\SkyscannerWeatherApi
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/User/OneDrive/Desktop/pregovor/distributedSystems/SkyscannerWeatherApi/SkyscannerWeatherApi/Views/Flights/Index.cshtml]
+[C:/Users/User/OneDrive/Desktop/pregovor/distributedSystems/SkyScannerApi/SkyscannerWeatherApi/SkyscannerWeatherApi/Views/Flights/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/OneDrive/Desktop/pregovor/distributedSystems/SkyscannerWeatherApi/SkyscannerWeatherApi/Views/Flights/Result.cshtml]
+[C:/Users/User/OneDrive/Desktop/pregovor/distributedSystems/SkyScannerApi/SkyscannerWeatherApi/SkyscannerWeatherApi/Views/Flights/Result.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxpZ2h0c1xSZXN1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/OneDrive/Desktop/pregovor/distributedSystems/SkyscannerWeatherApi/SkyscannerWeatherApi/Views/Home/Index.cshtml]
+[C:/Users/User/OneDrive/Desktop/pregovor/distributedSystems/SkyScannerApi/SkyscannerWeatherApi/SkyscannerWeatherApi/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/OneDrive/Desktop/pregovor/distributedSystems/SkyscannerWeatherApi/SkyscannerWeatherApi/Views/Home/Privacy.cshtml]
+[C:/Users/User/OneDrive/Desktop/pregovor/distributedSystems/SkyScannerApi/SkyscannerWeatherApi/SkyscannerWeatherApi/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/OneDrive/Desktop/pregovor/distributedSystems/SkyscannerWeatherApi/SkyscannerWeatherApi/Views/Locales/Get.cshtml]
+[C:/Users/User/OneDrive/Desktop/pregovor/distributedSystems/SkyScannerApi/SkyscannerWeatherApi/SkyscannerWeatherApi/Views/Locales/Get.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYWxlc1xHZXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/OneDrive/Desktop/pregovor/distributedSystems/SkyscannerWeatherApi/SkyscannerWeatherApi/Views/Locales/GetAsync.cshtml]
+[C:/Users/User/OneDrive/Desktop/pregovor/distributedSystems/SkyScannerApi/SkyscannerWeatherApi/SkyscannerWeatherApi/Views/Locales/GetAsync.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9jYWxlc1xHZXRBc3luYy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/OneDrive/Desktop/pregovor/distributedSystems/SkyscannerWeatherApi/SkyscannerWeatherApi/Views/Shared/Error.cshtml]
+[C:/Users/User/OneDrive/Desktop/pregovor/distributedSystems/SkyScannerApi/SkyscannerWeatherApi/SkyscannerWeatherApi/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/OneDrive/Desktop/pregovor/distributedSystems/SkyscannerWeatherApi/SkyscannerWeatherApi/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/User/OneDrive/Desktop/pregovor/distributedSystems/SkyScannerApi/SkyscannerWeatherApi/SkyscannerWeatherApi/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/OneDrive/Desktop/pregovor/distributedSystems/SkyscannerWeatherApi/SkyscannerWeatherApi/Views/_ViewImports.cshtml]
+[C:/Users/User/OneDrive/Desktop/pregovor/distributedSystems/SkyScannerApi/SkyscannerWeatherApi/SkyscannerWeatherApi/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/OneDrive/Desktop/pregovor/distributedSystems/SkyscannerWeatherApi/SkyscannerWeatherApi/Views/_ViewStart.cshtml]
+[C:/Users/User/OneDrive/Desktop/pregovor/distributedSystems/SkyScannerApi/SkyscannerWeatherApi/SkyscannerWeatherApi/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/OneDrive/Desktop/pregovor/distributedSystems/SkyscannerWeatherApi/SkyscannerWeatherApi/Views/Shared/_Layout.cshtml]
+[C:/Users/User/OneDrive/Desktop/pregovor/distributedSystems/SkyScannerApi/SkyscannerWeatherApi/SkyscannerWeatherApi/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-vu1dudkdod

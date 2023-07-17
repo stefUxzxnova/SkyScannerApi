@@ -14,7 +14,7 @@ namespace SkyscannerWeatherApi.RequestMethods
         public RequestSender(HttpClient client)
         {
             this.client = client;
-            this.client.DefaultRequestHeaders.Add("x-api-key", "prtl6749387986743898559646983194");
+            this.client.DefaultRequestHeaders.Add("x-api-key", "sh428739766321522266746152871799");
 
         }
 
